@@ -1,3 +1,4 @@
+import fetch from 'cross-fetch';
 
 export const getGifs = async (category) => {
     const url = `https://api.giphy.com/v1/gifs/search?api_key=R6Wm4OYa7cv5Z1XkAW4x0AKUDmqUwuPw&q=${category}&limit=10`
